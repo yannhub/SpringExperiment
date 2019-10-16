@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo App</title>
+    <meta name="description" content="Demo App" />
+    <meta name="author" content="CodeUp" />
+  </head>
+
+  <body>
+    <h1 th:text="'Hello ' + ${#strings.capitalize(name)} + '!'">Hello Honoré!</h1>
+    <p>Updated</p>
+  </body>
+</html>
